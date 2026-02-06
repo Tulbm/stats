@@ -60,13 +60,13 @@ Thus $1\to 2$
 
 $2\to 3$
 
-If $|x-M|<\epsilon$, we have that $x\in(M-\epsilon,M+\epsilon)$. But $x$ cannot be larger than $M$ since $M$ was an upper bound on the set $K$. 
+If $|x-M| < \epsilon$, we have that $x\in(M-\epsilon,M+\epsilon)$. But $x$ cannot be larger than $M$ since $M$ was an upper bound on the set $K$. 
 Thus, $x\in (M-\epsilon,M]$, and we have $2\to 3$
 
 $3\to1$
 
 Here we will not assume that $M$ is the $sup(K)$ (still an upper bound), but we will assume (3), that:
-For any $\epsilon >0$, there exists $x\in K$ such that $x\in (M-\epsilon, M]$
+For any $\epsilon > 0$, there exists $x\in K$ such that $x\in (M-\epsilon, M]$
 
 Then, there would exist an upper bound $u$ on $K$ that is less than $M$, such that
 $$
@@ -109,7 +109,7 @@ So $M^{*}$ can't have been an upper bound at all. Contradiction! Therefore the p
 
 ## $\forall \epsilon  >0\in \mathbb{R}, \exists n\in\mathbb{N}, \frac{1}{n}<\epsilon$
 
-Consider any $\epsilon>0$. From a previous result, $\frac{1}{\epsilon}$ is also positive
+Consider any $\epsilon >0$. From a previous result, $\frac{1}{\epsilon}$ is also positive
 
 Archimedean property tells us that $\exists n\in \mathbb{N}$ such that $n> \frac{1}{\epsilon}$
 
@@ -118,10 +118,4 @@ $$
 n> \frac{1}{e} \to \frac{1}{n}< \frac{1}{\frac{1}{e}} \to \frac{1}{n}< e
 $$
 [[Nested Interval Theorem]]
-
-
-## Sup exists
-
-
-## SUp exists
 
