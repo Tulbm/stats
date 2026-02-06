@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"STATS/Intro to Stats/Poisson Distribution.md","permalink":"/stats/intro-to-stats/poisson-distribution/","created":"2024-03-29T19:02:16.630-04:00","updated":"2025-07-15T20:42:25.404-04:00"}
+{"dg-publish":true,"dg-path":"STATS/Intro to Stats/Poisson Distribution.md","permalink":"/stats/intro-to-stats/poisson-distribution/","created":"2024-03-29T19:02:16.630-04:00","updated":"2025-07-15T22:11:07.110-04:00"}
 ---
 
 # Properties
@@ -29,9 +29,11 @@ Probability of a single success occurring in a very short time interval/region i
 # Probability Distribution Function
 A random variable $X$ has a Poisson distribution $X\sim Poisson(\lambda)$ if and only if it has the [[Academics/STATS/Math Stats 1/Probability Densities\|probability mass function]] 
 
-$$P(X=x)=f(x;\lambda)=\frac{\lambda
+$$
+P(X=x)=f(x;\lambda)=\frac{\lambda
 { #xe}
-^{-\lambda}}{x!}, x = 0,1,2\dots,\quad \quad\lambda>0$$
+^{-\lambda}}{x!}, x = 0,1,2\dots,\quad \quad\lambda>0
+$$
 
 1. $f(x;\lambda)>0$
 2. $\sum_{x}f(x;\lambda)=1$
